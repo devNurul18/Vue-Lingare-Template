@@ -1,0 +1,29 @@
+---Installation Process
+>Install Vue
+    npm create vue@latest
+>Install the npm
+    npm install
+>Run the server
+    npm run dev
+>Extension for VUE
+    Vue-Official
+
+
+ >Remove All the files in App.vue. keep the template script main and style code
+    >IMPORTANT CODE   
+    Script
+    template
+    style
+
+>We can Declare variable and function on the under the script
+>To run the script code have to use "setup" word
+>Link a function on a button use event @click
+>we can use loop using "v-for" 
+>In loop we have to give an unique keyword ":key="country.name" -> this is a goog Practice;
+
+>How to Read Data from external file
+    1.Create a folder under src folder
+    2.make a js file
+    3. Import the js file in App.vue and mentioned the folder path 
+    4. export the variable one by one which you want to use in App.vue
+
